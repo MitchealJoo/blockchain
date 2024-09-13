@@ -1,2 +1,2 @@
 # blockchain
-this is blockchain developer
+this is a blockchain developer
