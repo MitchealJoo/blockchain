@@ -19,6 +19,7 @@ pragma solidity 0.8.7;
 
 
     function recover(bytes32 _ethSignedMessageHash, bytes memory _sig) public pure returns (address){
+        //椭圆曲线k1算法，v代表正负数
         (bytes32 r, bytes32 s, uint8 v)  = splitSignature(_sig);
         return ecrecover(_ethSignedMessageHash, v, r, s);
    }
@@ -26,6 +27,7 @@ pragma solidity 0.8.7;
    function splitSignature(bytes memory _sig) public pure returns(bytes32 r, bytes32 s, uint8 v){
         require(_sig.length == 65,"invalid signature length");
 
+        //内联汇编 memory layout
         assembly{
             r := mload(add(_sig,32))
             s := mload(add(_sig,64))

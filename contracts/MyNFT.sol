@@ -12,7 +12,7 @@ interface IERC165 {
 //ERC721接口定义了NFT的标准，描述了所有NFT必须实现的函数和事件: 包括代币的转移、批准以及查询功能
 interface IERC721 is IERC165 {
     //因为区块链上的事件不能被直接读取，使用 indexed 后，这些参数就可以在事件日志中被索引
-    //(索引的参数最多为 3 个,开发者可以利用 indexed 参数在前端或后端应用中轻松查找与特定参数相关的事件)
+    //(单个事件里索引的参数最多为 3 个,开发者可以利用 indexed 参数在前端或后端应用中轻松查找与特定参数相关的事件)
     event Transfer(address indexed from, address indexed to, uint256 indexed tokenId); //用于记录NFT从一个地址转移到另一个地址。
     event Approval(address indexed owner, address indexed approved, uint256 indexed tokenId); //用于记录某个地址对NFT的授权。
     event ApprovalForAll(address indexed owner, address indexed operator, bool approved); //用于记录全局操作员的设置。
