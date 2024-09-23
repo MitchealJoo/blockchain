@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyERC20.sol": "Name"
+			"contracts/Receiver.sol": "Name"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyERC20.sol": {
-			"keccak256": "0x7dbc43c778684dcf200406158300ecfb80a1562d5d4886351b6c0ed28925a627",
+		"contracts/Receiver.sol": {
+			"keccak256": "0x6a2df0a5a83f8568f6c9c3ee6ef8ce7e02a7493328e7ecc9d48a1f83d38e706f",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://2bd59cf7c8cc88bf653b1713c8d8e0e47d0222c60bb0e41b6a92213ad4ccd318",
-				"dweb:/ipfs/QmdJr7wfwaqcUX4vh2yBUnMQWvtDPdcivhMK64rtVHMwon"
+				"bzz-raw://ebc3ceb2bb67c9a1288bd4375d59ebe18a1bff1d2a2081142a5fcb92646567c6",
+				"dweb:/ipfs/QmcQn4zSEdrdJWubJGtgPmpSZT9L4VfjcxyrfCw8beUofc"
 			]
 		}
 	},
