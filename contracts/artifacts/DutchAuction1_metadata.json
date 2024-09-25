@@ -53,7 +53,7 @@
 			},
 			{
 				"inputs": [],
-				"name": "expireAt",
+				"name": "expiretAt",
 				"outputs": [
 					{
 						"internalType": "uint256",
@@ -156,7 +156,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DutchAuction.sol": "DutchAuction"
+			"contracts/DutchAuction1.sol": "DutchAuction1"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -170,12 +170,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DutchAuction.sol": {
-			"keccak256": "0x1149757f97d97e2d4e0300e64fc501f9b2d621900abca99fa3ae097128893df0",
+		"contracts/DutchAuction1.sol": {
+			"keccak256": "0xbe4aa5606a355a3f57692de0139067dcbdc6d2d9109912f055658b1eb06f6d62",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0bd54b4a74fdbf46c003727454dff95a9cd2b6aede0d98b96b73596cb3d322c0",
-				"dweb:/ipfs/QmTvPZ5zJ6Shicy3F6dGYhmDKbufvQjTw3SKfPsYmZLkG2"
+				"bzz-raw://0ea6fe56715e841a79a20d748ba1328fae1f4dfe06d7a88f16a61038252d0f9f",
+				"dweb:/ipfs/QmZfW62Qkj1PYdGTiCsLzXghTZuez177kaq2vEuTiDWEBC"
 			]
 		}
 	},

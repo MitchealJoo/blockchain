@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DutchAuction.sol": "IERC"
+			"contracts/DutchAuction1.sol": "IERC"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -32,12 +32,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DutchAuction.sol": {
-			"keccak256": "0xaf95276f1e1de0774d35670af2278c3c957c21f0415340f1669e99b31de86b14",
+		"contracts/DutchAuction1.sol": {
+			"keccak256": "0x445b76fa91df3e5b7806add979b14e30d66c6054e13b0e7e191ee524ad835776",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://a755ee90b5917fc1b4e3433eb6db5d9114551c5914cd7531c25b479f10dac1ed",
-				"dweb:/ipfs/QmYJPnAap97U9hqNb7DVwHXxAGSpqfPH5c1gPSvR3AtSH4"
+				"bzz-raw://e75307ef90fbbeed68638faa4fdfe0b792ae7415b246cc0b27e2f27aca5283fb",
+				"dweb:/ipfs/QmQmhqNvWejPT9BDp9eG3ZCXF9wWosnAokTsheA7htHrDn"
 			]
 		}
 	},
