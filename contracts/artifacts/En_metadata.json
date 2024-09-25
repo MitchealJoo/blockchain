@@ -18,7 +18,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/EnglishAuction.sol": "Name"
+			"contracts/EnglishAuction.sol": "En"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -33,11 +33,11 @@
 	},
 	"sources": {
 		"contracts/EnglishAuction.sol": {
-			"keccak256": "0xc3e6f2c72de61afead6de2aa05644d03f5b08597a7fbab649f10ffe7700c42f1",
+			"keccak256": "0x806da7fc0ea03e7ec19a4a83a81c9191c1195f8cd9705427351239e2e26314e2",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://dade7f46d70b67ba5c57f8384a1fa7e432e8010e9ba34ca4b062ae05cd4ab943",
-				"dweb:/ipfs/QmT3FDMJvbVoMWXGJcH3m568nki5dX4rEERmjEY8QnW9v2"
+				"bzz-raw://72e743f181f6ec407e9e9fbceb748a7ab848e758dae98f721b903b9c8977d471",
+				"dweb:/ipfs/QmPn3doWUkSSSMuK1MbLiP6YVBCmruEuSDbMtYv3DUkUMT"
 			]
 		}
 	},

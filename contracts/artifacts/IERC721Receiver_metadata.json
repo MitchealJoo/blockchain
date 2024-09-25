@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.27+commit.40a35a09"
 	},
 	"language": "Solidity",
 	"output": {
@@ -53,9 +53,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/MyNFT.sol": "IERC721Receiver"
+			"contracts/IERC721.sol": "IERC721Receiver"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -67,12 +67,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/MyNFT.sol": {
-			"keccak256": "0xe3edd6453adb12b4f48dc3bc0d71414cb3f2e7d1810ec879684c7e00203d1c1f",
+		"contracts/IERC721.sol": {
+			"keccak256": "0x6f23a5a323f901a3f0c0923bf5c68de1c68c2638658823b293748c10276e34cd",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://6cf94e9eec0c1124a72169ba263e2cea675303d7d27fdc6e902f4d66fcb51870",
-				"dweb:/ipfs/QmfUEo6tZkK21CFrdq7xafAeE425RAZTPBTE2uXP88k4yX"
+				"bzz-raw://9bf5a5c9faef8073e51b9b3b7695bb11b8c2cbdafdaefc65cb9216120bd3ddc1",
+				"dweb:/ipfs/QmZALJa2aZr15LfqYt1FdruMT8g2efXBMvjhfkwPsQnWvV"
 			]
 		}
 	},

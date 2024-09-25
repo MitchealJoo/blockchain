@@ -42,7 +42,7 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/DutchAuction.sol": "IERC721"
+			"contracts/EnglishAuction.sol": "IERC721"
 		},
 		"evmVersion": "london",
 		"libraries": {},
@@ -56,12 +56,12 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/DutchAuction.sol": {
-			"keccak256": "0x1149757f97d97e2d4e0300e64fc501f9b2d621900abca99fa3ae097128893df0",
+		"contracts/EnglishAuction.sol": {
+			"keccak256": "0x31efee1220bc8ab3f01fbcbd6d607b00663c21a72f0f67171d1dbd6940020d10",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://0bd54b4a74fdbf46c003727454dff95a9cd2b6aede0d98b96b73596cb3d322c0",
-				"dweb:/ipfs/QmTvPZ5zJ6Shicy3F6dGYhmDKbufvQjTw3SKfPsYmZLkG2"
+				"bzz-raw://bc94216fb1d020384332b7534196b6c5f0c6a433f9be2a0425956100c4013cd0",
+				"dweb:/ipfs/QmasjSsNgZKkxeVvhfj5WsGxsxDkgqkXHPB9SDC3DNRyyi"
 			]
 		}
 	},
