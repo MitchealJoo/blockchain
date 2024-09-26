@@ -30,7 +30,7 @@
 				"anonymous": false,
 				"inputs": [
 					{
-						"indexed": false,
+						"indexed": true,
 						"internalType": "address",
 						"name": "sender",
 						"type": "address"
@@ -47,8 +47,46 @@
 			},
 			{
 				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "highestBidder",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "highestBid",
+						"type": "uint256"
+					}
+				],
+				"name": "End",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
 				"inputs": [],
 				"name": "Start",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": true,
+						"internalType": "address",
+						"name": "bidder",
+						"type": "address"
+					},
+					{
+						"indexed": false,
+						"internalType": "uint256",
+						"name": "amount",
+						"type": "uint256"
+					}
+				],
+				"name": "Withdraw",
 				"type": "event"
 			},
 			{
@@ -60,28 +98,9 @@
 			},
 			{
 				"inputs": [],
-				"name": "biggestBid",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "biggestBidder",
-				"outputs": [
-					{
-						"internalType": "address",
-						"name": "",
-						"type": "address"
-					}
-				],
-				"stateMutability": "view",
+				"name": "end",
+				"outputs": [],
+				"stateMutability": "nonpayable",
 				"type": "function"
 			},
 			{
@@ -105,6 +124,32 @@
 						"internalType": "bool",
 						"name": "",
 						"type": "bool"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "highestBid",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "highestBidder",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
 					}
 				],
 				"stateMutability": "view",
@@ -168,6 +213,13 @@
 				],
 				"stateMutability": "view",
 				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "withdraw",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -198,11 +250,11 @@
 	},
 	"sources": {
 		"contracts/EnglishAuction.sol": {
-			"keccak256": "0x31efee1220bc8ab3f01fbcbd6d607b00663c21a72f0f67171d1dbd6940020d10",
+			"keccak256": "0x90a959cfdc95d88cdb0296535f0f42ae1de63757220b481cca3d2f158b27df17",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://bc94216fb1d020384332b7534196b6c5f0c6a433f9be2a0425956100c4013cd0",
-				"dweb:/ipfs/QmasjSsNgZKkxeVvhfj5WsGxsxDkgqkXHPB9SDC3DNRyyi"
+				"bzz-raw://94853d33d908129934ce130f58ac2f73a86102e3fcf16c5be3d99b3dc9497179",
+				"dweb:/ipfs/QmbPxuTQe7kJVa29rUJmZxqzTkkkbh642o7sgdQ8k7e56f"
 			]
 		}
 	},
