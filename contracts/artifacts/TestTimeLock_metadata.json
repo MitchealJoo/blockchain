@@ -1,6 +1,6 @@
 {
 	"compiler": {
-		"version": "0.8.7+commit.e28d00a7"
+		"version": "0.8.28+commit.7893614a"
 	},
 	"language": "Solidity",
 	"output": {
@@ -9,7 +9,7 @@
 				"inputs": [
 					{
 						"internalType": "address",
-						"name": "_owner",
+						"name": "_timeLock",
 						"type": "address"
 					}
 				],
@@ -18,7 +18,27 @@
 			},
 			{
 				"inputs": [],
-				"name": "owner",
+				"name": "getTimestamp",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "test",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "timeLock",
 				"outputs": [
 					{
 						"internalType": "address",
@@ -43,9 +63,9 @@
 	},
 	"settings": {
 		"compilationTarget": {
-			"contracts/Create2.sol": "DeployWithCreate2"
+			"contracts/TimeLock.sol": "TestTimeLock"
 		},
-		"evmVersion": "london",
+		"evmVersion": "cancun",
 		"libraries": {},
 		"metadata": {
 			"bytecodeHash": "ipfs"
@@ -57,12 +77,11 @@
 		"remappings": []
 	},
 	"sources": {
-		"contracts/Create2.sol": {
-			"keccak256": "0x0d6a5374ab03d9d680bc0a0a50d4fbfdb8d9a04b56323af9a29ae335a0832a95",
-			"license": "MIT",
+		"contracts/TimeLock.sol": {
+			"keccak256": "0x99c7d05e32e51894088b2bcaff6ae86e5d7e3929ab3509c5d3c2aaaeca0bd9b4",
 			"urls": [
-				"bzz-raw://5b9fec099bac49107410bdb8e21b545b02f3046510114c888f0953ed5b72ace3",
-				"dweb:/ipfs/QmPNjTTvDJ5XvNX64RrDXsossfsiVtoZMnVmTVG1fpdUqz"
+				"bzz-raw://621fe5d6bfc017a4628891905e7353b975f6628fb8d045740bc81bd2cccb0425",
+				"dweb:/ipfs/QmcAXjJQ5H8qqA896yXxiUgPxCGRyWxijGFQdGMsNi5SrK"
 			]
 		}
 	},
